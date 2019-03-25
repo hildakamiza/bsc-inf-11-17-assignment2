@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head section-->
+<head>
+  <title>My Website</title>
+          <!-- Metadata tag and Style sheet link-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Style.css"><!--This links this page to the style sheet-->
+</head>
+
+          <!--Body Section-->
+<body>
+   
+          <Header section>
+          <h2>My Personal Website</h2>
+  <div class="topNav">
+    <ul>
+       <li><a href="Index.html" >Home</a></li>
+       <li><a href="About.html" >About us</a></li>
+       <li><a href="History.html">Our Team</a></li>
+       <li><a href="Projects.html">Projects</a></li>
+       <li><a href="contact.html" >ContactUs</a></li>
+   </ul>
+  </div>
+
+<div class="img">
+   <img src="my image.jpg" alt="Myimage"/>
+  
+</div>
+<form action="/my handling-form-page" method="post">
+      project name:<br>
+         <input type="text" id="project" name="project-name"></br>
+         project description:<br>
+         <input type="text" id="descrition" name="project description"></br>
+         completion date:<br>
+         <input type="date" id="date" name="completion date"></br>
+      
+         <input type="submit" value ="submit"></br>                         
+</form>
+
+<script>
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+  // Store
+  localStorage.setItem("project name", project name);
+  // Retrieve
+  document.getElementById("project name",project name).innerHTML = localStorage.getItem("project name");
+  //store
+  localStorage.setItem("project descritption", project description);return false
+  //retrive
+  document.getElementById("project description", project description).innerHTML=localStorage.getItem("project description",project decsription);return false
+  //store
+  localStorage.setItem("completion date",completion date); return false
+  //retrive
+  document.getElementById("completion date",completion date).innerHTML=localStorage.getItem("completion date",completion date);return false
+  
+} 
+
+</script>
+
+
+          <!--Body Section-->
+    <div class="article-section">
+       <h2>
+        Previous projects!
+       </h2>
+      <!--first row ->
+      <div class="first-row">
+      <!--first column-->
+        <!--div class="col-4 site1"->
+          <h3>Tasty Bites Website</h3>
+           <p>
+              <img src="about4.jpg" alt="Myimage" />
+
+              <a href="http://www.escom.mw/" target="blank">Read More</a>
+           </p>
+        </div>
+
+        <!--   Second Column  -->
+        <!--div class="col-4 site2"->
+           <h3>Jumani Film Website</h3> 
+            <p>
+              <img src="about2.jpg" alt="Myimage" />
+              <a href="https://www.gty.org/library/resources/sermons-library" target="blank">Read More</a>
+            </p>
+        </div>
+
+        <!--   Third Column   -->
+        <!--div class="col-4 site3"->
+           <h3>Akila Intertainment website</h3>
+            <p>
+              <img src="about5.jpg" alt="Myimage" />
+              <a href="https://www.linkedin.com/company/quack-media" target="blank">Read More</a>
+           </p>
+        </div>
+      </div>
+
+      <!--  Second row -->
+      <!--div class="Second-row">
+      <
+         <!--div class="col-4 site4"->
+              <h3>Meditation Power Ministries Website</h3>
+                  <img src="about1.jpg" alt="Myimage" />
+              <a href="http://discovery.nationalarchives.gov.uk/details/a?_ref=3178" target="blank">Read More</a>
+
+           </p>
+        </div>
+
+        <!--   Second Column  -->
+        <!--div class="col-4 site5"->
+           <h3>Interprenuers Corner Website</h3> 
+            <p>
+              <img src="about3.jpg" alt="Myimage" />
+              <a href="COMSOC.html">Read More</a>
+            </p>
+        </div>
+
+        <!--   Third Column   -->
+        <!--div class="col-4 site6"->
+           <h3>Nanzombe investment website</h3>
+            <p>
+              <img src="about6.jpg" alt="Myimage" />
+              <a href="Mumve poetry.html">Read More</a>
+           </p>
+        </div>
+      </div>
+
+      <!-- footer -->
+ <footer>
+    <section class="contacts">
+       <strong>-----0 Contacts 0-----</strong><br>
+            Email  : Bsc-inf-11-17@cc.ac.mw<br>
+            Phone  : (+265) 884195304<br>
+           Address:  Box 280, Zomba<br> 
+     </section>
+
+
+    <div class="bottom">
+     <marquee> <p class="copyright">&copy; <em>Copyright 2019 | My personal Website | All Rights Reserved</em></p> </marquee>
+    </div>
+  </footer>
+<!--end footer-->
+
+</body>
+</html>
